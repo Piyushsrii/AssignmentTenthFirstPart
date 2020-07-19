@@ -17,3 +17,7 @@ echo $c
 Compute=$(($a+$(($b*$c))))
 echo $Compute
 
+#!/bin/bash -x     #UserCase----> 3
+
+Compute1=$(($(($a*$b))+$c))
+echo $compute1
