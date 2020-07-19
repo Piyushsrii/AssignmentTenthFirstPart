@@ -31,7 +31,9 @@ echo $compute2
 Compute3=$(($(($a%$b))+$c))
 echo $Compute3
 
-declare -A Dictionary;      #UserCase----->6
+#!/bin/bash -x       #UserCase---->6
+
+declare -A Dictionary;
 
 function Dic () {
 #local $var=$1
@@ -49,6 +51,7 @@ Compute2=$(($a+$(($b/$c))))
         echo $Compute2
          ;;
 4)
+>>>>>>> uc7
 Compute3=$(($(($a%$b))+$c))
 echo $Compute3
   ;;
@@ -63,5 +66,11 @@ var=$i
 Dictionary[$i]=$(Dic $var)
 echo ${Dictinary[i]}
 done
+
+for(( count=1;count<=4;count++ ))       #UserCase---->7
+do
+arr[(($count))]=$((Dictionary[$count]))
+echo ${arr[@]}
+>>>>>>> uc7
 
 
