@@ -76,3 +76,4 @@ echo ${arr[@]}
 
 ascendingorder=$(printf '%s\n' "${arr[@]}" | sort -n )     #----->8
 
+descendingorder=$(printf '%s\n' "${arr[@]}" | sort -nr )     #------>9
