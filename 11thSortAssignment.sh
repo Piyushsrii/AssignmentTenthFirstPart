@@ -67,11 +67,11 @@ Dictionary[$i]=$(Dic $var)
 echo ${Dictinary[i]}
 done
 
+
 for(( count=1;count<=4;count++ ))       #UserCase---->7
 do
 arr[(($count))]=$((Dictionary[$count]))
 echo ${arr[@]}
->>>>>>> uc7
 
 
 ascendingorder=$(printf '%s\n' "${arr[@]}" | sort -n )     #----->8
