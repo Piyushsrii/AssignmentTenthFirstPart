@@ -74,3 +74,5 @@ echo ${arr[@]}
 >>>>>>> uc7
 
 
+ascendingorder=$(printf '%s\n' "${arr[@]}" | sort -n )     #----->8
+
