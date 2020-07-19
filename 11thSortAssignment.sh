@@ -83,3 +83,5 @@ arr[(($count))]=$((Dictionary[$count]))
 echo ${arr[@]}
 
 
+ascendingorder=$(printf '%s\n' "${arr[@]}" | sort -n )     #----->8
+
