@@ -21,3 +21,8 @@ echo $Compute
 
 Compute1=$(($(($a*$b))+$c))
 echo $compute1
+
+#!/bin/bash -x     #UserCase----->4
+
+Compute2=$(($a+$(($b/$c))))
+echo $compute2
