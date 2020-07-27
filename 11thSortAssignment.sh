@@ -1,6 +1,7 @@
 echo Welcome in master
 
 #################### User Case 1 #####################
+#Problem statement-1------>Write program to take three inputs–a, b & c
 
 #!/bin/bash -x
 
@@ -13,6 +14,7 @@ echo $c
 
 
 #!/bin/bash -x     #UserCase----> 2
+# Problem Statement-2------->(Compute a + b * c)
 
 Compute=$(($a+$(($b*$c))))
 echo $Compute
