@@ -31,6 +31,7 @@ Compute2=$(($a+$(($b/$c))))
 echo $compute2
 
 #!/bin/bash -x      #UserCase---->5
+#Problem Statement-5------>(Compute a % b + c)
 
 Compute3=$(($(($a%$b))+$c))
 echo $Compute3
