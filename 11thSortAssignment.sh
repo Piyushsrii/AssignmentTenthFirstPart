@@ -14,6 +14,7 @@ echo $c
 
 
 #!/bin/bash -x     #UserCase----> 2
+# Problem Statement-2------->(Compute a + b * c)
 
 Compute=$(($a+$(($b*$c))))
 echo $Compute
