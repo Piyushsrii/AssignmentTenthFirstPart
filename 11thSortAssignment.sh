@@ -31,11 +31,14 @@ Compute2=$(($a+$(($b/$c))))
 echo $compute2
 
 #!/bin/bash -x      #UserCase---->5
+#Problem Statemt-5------->(Compute a % b + c)
 
 Compute3=$(($(($a%$b))+$c))
 echo $Compute3
 
 #!/bin/bash -x
+#Problem Statement-6------->Store the results in a Dictionary for every Computation
+
 declare -A Dictionary;
 function Dic () {
 #local $var=$1
