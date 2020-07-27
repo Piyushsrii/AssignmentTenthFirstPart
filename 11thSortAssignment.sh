@@ -1,6 +1,7 @@
 echo Welcome in master
 
 #################### User Case 1 #####################
+#Problem statement-1------>Write program to take three inputs–a, b & c
 
 #!/bin/bash -x
 
@@ -11,20 +12,22 @@ echo $a
 echo $b
 echo $c
 
-
 #!/bin/bash -x     #UserCase----> 2
+# Problem Statement-2------->(Compute a + b * c)
 
 Compute=$(($a+$(($b*$c))))
 echo $Compute
 
 #!/bin/bash -x     #UserCase----> 3
+#Problem Statement-3------>(Compute a * b + c)
 
 Compute1=$(($(($a*$b))+$c))
 echo $compute1
 
-#!/bin/bash -x      #UserCase----> 4
+#!/bin/bash -x     #UserCase----->4
+#Problem Statement-4------>(Compute c + a / b)
 
-compute2=$(($a+$(($b/$c))))
+Compute2=$(($a+$(($b/$c))))
 echo $compute2
 
 #!/bin/bash -x      #UserCase---->5
@@ -32,10 +35,8 @@ echo $compute2
 Compute3=$(($(($a%$b))+$c))
 echo $Compute3
 
-#!/bin/bash -x       #UserCase---->6
-
+#!/bin/bash -x
 declare -A Dictionary;
-
 function Dic () {
 #local $var=$1
 case $1 in
@@ -66,4 +67,5 @@ var=$i
 Dictionary[$i]=$(Dic $var)
 echo ${Dictinary[i]}
 done
+
 
