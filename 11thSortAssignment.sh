@@ -20,6 +20,7 @@ Compute=$(($a+$(($b*$c))))
 echo $Compute
 
 #!/bin/bash -x     #UserCase----> 3
+#Problem Statement-3------>(Compute a * b + c)
 
 Compute1=$(($(($a*$b))+$c))
 echo $compute1
